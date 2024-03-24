@@ -12,9 +12,14 @@ function calculateDemeritPoints(speed) {
     return demeritPoints;
 }
 
-function main() {
-    const speed = parseFloat(prompt("Enter the speed of the car (in km/h):"));
+function promptSpeed() {
+    const speed = prompt("Enter the speed of the car (in km/h):");
     const demeritPoints = calculateDemeritPoints(speed);
+    alert (`your demerit points is ${demeritPoints}`)
+    return demeritPoints
+   
 }
 
-main();
+promptSpeed();
+
+
