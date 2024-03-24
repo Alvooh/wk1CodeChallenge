@@ -10,7 +10,9 @@ Three javascript scripts that do the following
 
 2.netSalary.js - calculates an individual’s Net Salary by getting the inputs of basic salary and benefits
 
-3.speed.js - takes as input the speed of a car e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it gives the driver one demerit point and prints the total number of demerit points.
+3.speed.js - takes as input the speed of a car and If the speed is less than 70, it prints “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it gives the driver one demerit point and prints the total number of demerit points. If the driver gets more than 12 points, the function prints “License suspended”.
+
+
 
 
 ## Installation
